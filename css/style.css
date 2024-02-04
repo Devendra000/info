@@ -79,7 +79,7 @@ audio,canvas,video {
 	*display:inline;
 	*zoom: 1;
 }
-* Remove excess height in iOS 5 devices. */
+/* Remove excess height in iOS 5 devices. */
 audio:not([controls]) {
 	display:none;
 	height:0;
@@ -453,22 +453,22 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg.jpg') right bottom no-repeat;
+	background: url('../img/dev-edit.jpg') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
 	background-color: #FBFBFB;
 }
 .hero h1 {
-	font-size: 120px;
-	letter-spacing: -8px;
+	font-size: 95px;
+	letter-spacing: -7px;
 	margin: 0;
 	font-weight: 600;
 	line-height: 95px;
 	text-transform: uppercase;
 }
 .hero h1 span {
-	color:#a1a9b0;
+	color:#b1c9df;
 	/* display:inline-block; */
 }
 .hero h3 {
@@ -477,7 +477,7 @@ table {
 	padding:0;
 	opacity:0.5;
 	color: #E04343;
-	letter-spacing: 18px;
+	letter-spacing: 10px;
 	line-height: 50px;
 	text-transform: uppercase;
 }
